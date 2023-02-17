@@ -101,3 +101,48 @@ body{
     line-height: 26px;
 }
 /* my failures section style end */
+/* my plane section style start */
+.my-plane{
+    margin-top: 130px;
+}
+.my-plane-title{
+    text-align: center;
+    color: #151414;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 49px;
+}
+.wrapper{
+    display: flex;
+    gap:100px;
+}
+.my-plane-inner{
+    padding: 20px 20px;    
+}
+.my-plane-img-box-1{
+    width: 54%;
+    margin: 0 auto;
+}
+.my-plane-img-box{
+    width: 75%;
+    margin: 0 auto;
+}
+.my-plane-text-box h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+.my-plane-text-box p{
+    color: #737272;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+}
+/* my plane section style end */
