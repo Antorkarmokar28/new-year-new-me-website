@@ -47,7 +47,7 @@ body{
     width: 160px;
     height: 64px;
     border: 0;
-    border-radius: 3px;
+    border-radius: 6px;
     cursor: pointer;
     background-color:#FD6E0A;
     font-size: 20px;
@@ -167,13 +167,14 @@ body{
 .call-now-btn{
     width: 160px;
     height: 64px;
-    border-radius: 3px;
+    border-radius: 6px;
     border: 0;
     color: #F15B22;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     cursor: pointer;
+    background-color: #FFFFFF;
 }
 /* positive mindset section style end */
 /* contact us section style start */
@@ -208,7 +209,7 @@ body{
     width: 160px;
     height: 64px;
     border: 0;
-    border-radius: 3px;
+    border-radius: 6px;
     cursor: pointer;
     background-color:#FD6E0A;
     font-size: 20px;
@@ -238,3 +239,65 @@ body{
     font-style: normal;
 }
 /* contact us section style end */
+/* footer style start */
+.footer{
+    margin-top: 130px;
+    background-color: #151414;
+    padding: 130px 130px;
+}
+.footer-wrapper{
+    display: flex;
+    gap: 10%;
+}
+.footer-info-inner{
+    width: 60%;
+}
+.footer-subscribe-inner{
+    width: 30%;
+}
+.footer-info-inner h1{
+    color: #F8F8F8;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.footer-info-inner p{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.footer-info-inner a{
+    margin-right: 10px;
+}
+.footer-subscribe-inner h2{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 31px;
+}
+.subscribe-input{
+    background-color: #151414;
+    border: 1px solid #FFFFFF !important;
+}
+.subscribe-input::placeholder{
+    color: #FFFFFF;
+}
+.subscribe-btn{
+    width: 160px;
+    height: 64px;
+    border-radius: 6px;
+    border: 0;
+    color: #F15B22;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+/* footer style end */
