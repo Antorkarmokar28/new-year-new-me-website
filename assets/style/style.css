@@ -146,3 +146,33 @@ body{
     text-align: center;
 }
 /* my plane section style end */
+/* positive mindset section style start */
+.positive-mindset-section{
+    margin-top: 130px;
+}
+.mindset-wrapper{
+    background-image: linear-gradient(to right,#fd6e0ae6,#ffff003b),url(../images/watch.png);
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    padding: 59px 64px;
+}
+.mindset-wrapper h1{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+.call-now-btn{
+    width: 160px;
+    height: 64px;
+    border-radius: 3px;
+    border: 0;
+    color: #F15B22;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* positive mindset section style end */
