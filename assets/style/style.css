@@ -176,3 +176,65 @@ body{
     cursor: pointer;
 }
 /* positive mindset section style end */
+/* contact us section style start */
+.contact-us{
+    margin-top: 130px;
+}
+.input-inner{
+    width: 70%;
+}
+.contact-us-title{
+    text-align: center;
+    color: #151414;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 49px;
+}
+.contact-wrapper{
+    display: flex;
+    gap: 100px;
+}
+.input-inner input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: 1px solid #F15B22;
+    border-radius: 6px;
+    outline: 0;
+}
+.contact-btn{
+    width: 160px;
+    height: 64px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color:#FD6E0A;
+    font-size: 20px;
+    font-weight: 600;
+    color:#FFF8F3;
+}
+.info-inner{
+    width: 30%;
+}
+.info-box{
+    width: 100%;
+    display: flex;
+    border: 1px solid #FD6E0A;
+    padding: 36px 30px;
+    margin-bottom: 24px;
+    border-radius: 6px;
+    gap: 20px;
+}
+.icon i{
+    color: #FD6E0A;
+    font-size: 22px;
+}
+.text p{
+    color: #444343;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+}
+/* contact us section style end */
